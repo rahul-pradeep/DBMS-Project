@@ -21,10 +21,10 @@ background: url(3.png);
 
 
  <?php
-$servername = "localhost";
-$username = "rahul";
-$password = "Rahul99@";
-$dbname = "db_project";
+$servername = getenv("mysql_hostname");
+$username = getenv("mysql_username");
+$password = getenv("mysql_password");
+$dbname = getenv("mysql_database");
 
 
 
